@@ -198,7 +198,7 @@ class AjaxUploader extends Component {
   render() {
     const {
       component: Tag, prefixCls, className, disabled, id,
-      style, multiple, accept, children, directory, openFileDialogOnClick,
+      style, multiple, accept, children, openFileDialogOnClick,
     } = this.props;
     const cls = classNames({
       [prefixCls]: true,
