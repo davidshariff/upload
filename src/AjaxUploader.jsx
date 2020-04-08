@@ -227,8 +227,6 @@ class AjaxUploader extends Component {
           key={this.state.uid}
           style={{ display: 'none' }}
           accept={accept}
-          directory={directory ? 'directory' : null}
-          webkitdirectory={directory ? 'webkitdirectory' : null}
           multiple={multiple}
           onChange={this.onChange}
         />
